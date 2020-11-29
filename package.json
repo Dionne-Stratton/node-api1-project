@@ -7,18 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Dionne-Stratton/node-api1-project.git"
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Dionne-Stratton/node-api1-project/issues"
-  },
-  "homepage": "https://github.com/Dionne-Stratton/node-api1-project#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "shortid": "^2.2.15"
   }
 }
